@@ -3,31 +3,41 @@ name: Update Jailbreak Repo
 on:
   push:
     branches:
-      - main  # 當你上傳檔案到 main 分支時觸發
+      - main
     paths:
-      - 'debs/**' # 只有當 debs 資料夾有變動時才執行
+      - 'debs/**'
+  workflow_dispatch: # 允許你手動點擊按鈕執行
 
 jobs:
   update-repo:
     runs-on: ubuntu-latest
+    # 給予機器人寫入權限
+    permissions:
+      contents: write
+      
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # 升級到 v4 解決 Node.js 警告
 
       - name: Install dpkg-dev
-        run: sudo apt-get install -y dpkg-dev
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev
 
       - name: Generate Packages file
         run: |
-          # 掃描 debs 資料夾並產生 Packages 檔案
+          # 掃描並產生索引
           dpkg-scanpackages -m ./debs > Packages
-          # 同時產生壓縮版（有些商店需要）
+          bzip2 -c Packages > Packages.bz2
           gzip -c Packages > Packages.gz
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "loksum-bot"
           git config --global user.email "bot@loksum.com"
-          git add Packages Packages.gz
-          git commit -m "自動更新軟體源索引" || echo "沒有變動需要提交"
-          git push
+          git add Packages Packages.bz2 Packages.gz
+          # 只有在有變動時才提交，避免報錯
+          if [ -n "$(git status --porcelain Packages Packages.bz2 Packages.gz)" ]; then
+            git commit -m "自動更新軟體源索引 [$(date)]"
+            git push
+          else
+            echo "沒有檔案變動，跳過提交。"
+          fi
