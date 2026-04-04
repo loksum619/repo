@@ -1,3 +1,37 @@
+Package: com.bandarhl.bhtwitter
+Version: 4.4-1+debug
+Architecture: iphoneos-arm64
+Maintainer: Bandar Alruwaili
+Installed-Size: 18344
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/com.bandarhl.bhtwitter_4.4-1+debug_iphoneos-arm64.deb
+Size: 7336826
+MD5sum: e88fb9afcd5b5670457af330bd4a0891
+SHA1: 7553fbe5665571351da924d9b64b747b18876bdb
+SHA256: 4060410fd9244a5a91a9ab852f828ada7ea55552a59c645a0f30fa41668ada76
+Section: Tweaks
+Description: Awesome tweak for Twitter
+Author: Bandar Alruwaili
+Name: BHTwitter
+
+Package: com.dvntm.ytlite
+Version: 5.2b4
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 16732
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_5.2b4_iphoneos-arm64.deb
+Size: 6415866
+MD5sum: 5134e22aec6d8a3b7e09ce69e49b2dbd
+SHA1: de37ad04ae69ec549e3c4eaf197f131c551a48a0
+SHA256: 9ebeace66909cac0bd1749daaf26113c51d0d6704a58d941f859920fc4a47283
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
 Architecture: iphoneos-arm64
@@ -15,4 +49,21 @@ Author: dayanch96 & ginsu
 Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
 Name: YTMusicUltimate
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.socuul.scinsta
+Version: 1.1.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: SoCuul
+Installed-Size: 664
+Depends: mobilesubstrate
+Filename: ./debs/com.socuul.scinsta_1.1.1_rootless.deb
+Size: 137996
+MD5sum: a4b99a075fe77b1845fede65ce0368d7
+SHA1: b8a1d957a89d36dbcfc678fe0cd3ffc9d10a248e
+SHA256: 5282720e8ce2ef8edabd455c13bd1b900b6c3b1322af8f49ef67979a1f735279
+Section: Tweaks
+Homepage: https://github.com/SoCuul/SCInsta
+Description: A feature-rich tweak for Instagram on iOS!
+Author: SoCuul
+Name: SCInsta
 
