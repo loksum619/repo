@@ -3,64 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>loksum 插件精選站</title>
+    <title>Add to Sileo</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
-            margin: 0;
-            background-color: #f5f5f7;
-            color: #1d1d1f;
+            background-color: #f2f2f7;
+            font-family: -apple-system, sans-serif;
         }
-        .container {
-            text-align: center;
-            padding: 20px;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
-        h1 { margin-bottom: 10px; }
-        p { color: #86868b; margin-bottom: 30px; }
-        
-        /* 按鈕樣式 */
         .btn {
             display: inline-block;
-            padding: 15px 30px;
-            font-size: 18px;
+            padding: 16px 32px;
+            font-size: 20px;
             font-weight: 600;
             color: white;
-            background-color: #007aff; /* Sileo 藍色 */
+            background-color: #2cccd3; /* Sileo 經典青綠色 */
             text-decoration: none;
-            border-radius: 12px;
-            transition: transform 0.2s, background-color 0.2s;
-        }
-        .btn:hover {
-            background-color: #0056b3;
-            transform: scale(1.05);
+            border-radius: 14px;
+            box-shadow: 0 4px 15px rgba(44, 204, 211, 0.3);
+            transition: transform 0.1s ease;
         }
         .btn:active {
             transform: scale(0.95);
+            background-color: #24b5bb;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>loksum 插件精選站</h1>
-        <p>歡迎來到我的越獄軟體源</p>
-        
-        <a href="sileo://source/https://loksum619.github.io/repo/" class="btn">
-            Add to Sileo
-        </a>
-        
-        <div style="margin-top: 20px; font-size: 12px; color: #ccc;">
-            需在已越獄的 iOS 設備上點擊
-        </div>
-    </div>
+    <a href="sileo://source/https://loksum619.github.io/repo/" class="btn">
+        Add to Sileo
+    </a>
 
 </body>
 </html>
