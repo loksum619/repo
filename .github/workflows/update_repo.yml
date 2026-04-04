@@ -1,0 +1,33 @@
+name: Update Jailbreak Repo
+
+on:
+  push:
+    branches:
+      - main  # 當你上傳檔案到 main 分支時觸發
+    paths:
+      - 'debs/**' # 只有當 debs 資料夾有變動時才執行
+
+jobs:
+  update-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dpkg-dev
+        run: sudo apt-get install -y dpkg-dev
+
+      - name: Generate Packages file
+        run: |
+          # 掃描 debs 資料夾並產生 Packages 檔案
+          dpkg-scanpackages -m ./debs > Packages
+          # 同時產生壓縮版（有些商店需要）
+          gzip -c Packages > Packages.gz
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "loksum-bot"
+          git config --global user.email "bot@loksum.com"
+          git add Packages Packages.gz
+          git commit -m "自動更新軟體源索引" || echo "沒有變動需要提交"
+          git push
