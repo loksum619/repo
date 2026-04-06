@@ -2,41 +2,98 @@
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add to Sileo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sileo Repo</title>
     <style>
+        /* Apple 系統字體排版 */
+        :root {
+            --apple-blue: #0071e3;
+            --apple-bg: #f5f5f7;
+        }
+
         body {
             margin: 0;
+            padding: 0;
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100vh;
-            background-color: #f2f2f7;
-            font-family: -apple-system, sans-serif;
+            background-color: var(--apple-bg);
+            font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
         }
-        .btn {
-            display: inline-block;
-            padding: 16px 32px;
-            font-size: 20px;
-            font-weight: 600;
+
+        /* 核心按鈕容器 */
+        .apple-container {
+            text-align: center;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Apple 風格按鈕 */
+        .sileo-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 28px;
+            font-size: 17px;
+            font-weight: 500;
             color: white;
-            background-color: #2cccd3; /* Sileo 經典青綠色 */
+            background-color: var(--apple-blue);
             text-decoration: none;
-            border-radius: 14px;
-            box-shadow: 0 4px 15px rgba(44, 204, 211, 0.3);
-            transition: transform 0.1s ease;
+            border-radius: 980px; /* Apple 招牌超圓角 */
+            letter-spacing: -0.022em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 113, 227, 0.2);
         }
-        .btn:active {
-            transform: scale(0.95);
-            background-color: #24b5bb;
+
+        /* 滑鼠懸停效果 (Apple 特有的微小變化) */
+        .sileo-button:hover {
+            background-color: #0077ed;
+            box-shadow: 0 8px 20px rgba(0, 113, 227, 0.3);
+            transform: scale(1.02);
+        }
+
+        /* 按下時的縮放感 */
+        .sileo-button:active {
+            transform: scale(0.96);
+            opacity: 0.8;
+        }
+
+        /* 加入 Sileo 專屬圖標的微調 */
+        .icon {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+        }
+
+        /* 底部的小字備註 (Apple 風格的隱形文字) */
+        .footer-note {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #86868b;
+            font-weight: 400;
+            opacity: 0;
+            animation: fadeIn 1s forwards 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
 <body>
 
-    <a href="sileo://source/https://loksum619.github.io/repo/" class="btn">
-        Add to Sileo
-    </a>
+    <div class="apple-container">
+        <a href="sileo://source/https://loksum619.github.io/repo/" class="apple-container">
+            <div class="sileo-button">
+                <span>Add to Sileo</span>
+            </div>
+        </a>
+        
+        <div class="footer-note">
+            Designed by loksum in Hong Kong.
+        </div>
+    </div>
 
 </body>
 </html>
