@@ -226,3 +226,27 @@ Description: A feature-rich tweak for Instagram on iOS!
 Author: SoCuul
 Name: SCInsta
 
+Package: org.thebigboss.whatsapprevael
+Version: 10.23
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4113
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: org.thebigboss.whatsapprevaelrootless
+Filename: ./debs/org.thebigboss.whatsapprevael_10.23_iphoneos-arm64e.deb
+Size: 2106824
+MD5sum: e3fe865e8bacdf3fab6b8820ccbdf8d7
+SHA1: 413e045f574b0b377175ae30e3e95e1ad1e49829
+SHA256: f060078333b2c49ae905ae104af612a70d5c84387b8ea856991a6bdea60ebed8
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=whatsapprevaelDp
+Description: Many features of the WhatsApp application
+Tag: purpose::extension
+Author: Ahmad Mokadam <ahmadmokaddam@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=whatsapprevaelDp
+Dev: ahmadmokaddam
+Icon: file:///Library/Application%20Support/WARevael.bundle/icon@2x.png
+Name: Whatsapp Revael
+Sponsor: thebigboss.org <http://thebigboss.org>
+
