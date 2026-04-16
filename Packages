@@ -172,26 +172,3 @@ Description: [EXPERIMENTAL] Gives iOS UI elements a real-time Metal-rendered Liq
 Author: Your Name <you@example.com>
 Name: LiquidGlass
 
-Package: org.thebigboss.whatsapprevael
-Version: 10.23
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 4114
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: org.thebigboss.whatsapprevaelrootless
-Filename: ./debs/whatsapprevael_10.23.deb
-Size: 772968
-MD5sum: 8f507c56fc67158dc79162ba09726357
-SHA1: 2b064001dbfc849630eb09f549f26c7c5a7daf29
-SHA256: e082e246996717fbfab5980d27d1e7f671aa2ccfe9a1fa953defbb00c23daf0c
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=whatsapprevaelDp
-Description: Many features of the WhatsApp application
-Tag: purpose::extension
-Author: Ahmad Mokadam <ahmadmokaddam@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=whatsapprevaelDp
-Dev: ahmadmokaddam
-Icon: file:///Library/Application%20Support/WARevael.bundle/icon@2x.png
-Name: Whatsapp Revael
-Sponsor: thebigboss.org <http://thebigboss.org>
-
