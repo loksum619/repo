@@ -32,6 +32,25 @@ Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/0c/5f/df0c5f65-4c
 Name: Duolingo
 Sileodepiction: https://repo.blatants.fyi/depictions/Duolingo.json
 
+Package: com.blatant.flightradar24
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: blatant <blatantzzz@protonmail.com>
+Installed-Size: 3080
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.blatant.flightradar24_1.0_iphoneos-arm64e.deb
+Size: 479018
+MD5sum: e88a28928bdbc3619f7d3f98fb0f89bc
+SHA1: 0c85f438572daa17c8d8427d3fa6924c8b2843e1
+SHA256: 7f2b952bcbfa42f1ff01b40329d307b51db615d16c36e7c1370e339c719ce49f
+Section: Cracks
+Description: Cracked By Blatant
+Author: blatant
+Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
+Icon: https://i.ibb.co/f1jX1J8/IMG-7366.jpg
+Name: FlightRadar24
+Sileodepiction: https://repo.blatants.fyi/depictions/FlightRadar24.json
+
 Package: com.blatant.lingvist
 Version: 1.0
 Architecture: iphoneos-arm64e
