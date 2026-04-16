@@ -14,25 +14,6 @@ Description: Awesome tweak for Twitter
 Author: Bandar Alruwaili
 Name: BHTwitter
 
-Package: com.blatant.crackfouad
-Version: 2.1
-Architecture: iphoneos-arm64e
-Maintainer: blatant <blatantzzz@protonmail.com>
-Installed-Size: 3212
-Conflicts: com.blatant.regramcrack (= 1.2)
-Filename: ./debs/com.blatant.crackfouad_2.1_iphoneos-arm64e.deb
-Size: 551100
-MD5sum: ecbe62a854e9943166a1d8280c81c790
-SHA1: 8c4a6db6f3ed0423a9541d2f8394f347004f3406
-SHA256: 116ad8940885e250562ce5375b98a043b5a32b7f8fa941614fe0a5ba2435b0de
-Section: Cracks
-Description: Cracked By Blatant
-Author: blatant
-Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
-Icon: https://i.ibb.co/D4vsppW/Untitled-design.png
-Name: Fouad Crack
-Sileodepiction: https://repo.blatants.fyi/depictions/FouadCrack_v2.1.json
-
 Package: com.blatant.duolingo
 Version: 1.0
 Architecture: iphoneos-arm64e
