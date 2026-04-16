@@ -143,6 +143,25 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resourc
 Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
+Package: com.fouadraheb.watusi3
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Installed-Size: 9420
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000), com.f0u4d.watusitools (>= 2.7.0)
+Conflicts: com.fouadraheb.watusi, com.f0u4d.watusi, org.thebigboss.watusi, xyz.cypwn.wtspatch, xyz.cypwn.watusicrack, xyz.cypwn.watusitools, xyz.cypwn.onlinenotify, xyz.cypwn.stalky, xyz.cypwn.regram, xyz.cypwn.regramcrack, xyz.cypwn.fouackyou, xyz.cypwn.freegram, xyz.cypwn.freegram389628, xyz.cypwn.fouackoff104033, xyz.cypwn.fouackoff568297, xyz.cypwn.fouackoff729766, xyz.cypwn.freegram335030, xyz.cypwn.freegram342921
+Filename: ./debs/com.fouadraheb.watusi3_1.3.1_iphoneos-arm64.deb
+Size: 2518440
+MD5sum: 471a5c653f49512826c7191766b66531
+SHA1: 655edaa2797b09d2ed1cab38ffc43a97c264b6a5
+SHA256: 9535c1e22d062f40e5465967a638727c59e5e2bc32cb5fc6b7f0f0fd2fe624f5
+Section: Tweaks
+Description: The all-in-one tweak for WhatsApp Messenger
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.watusi3
+Icon: file:///Library/Application Support/Watusi/Resources.bundle/Settings.bundle/WatusiSettingsLogo@3x.png
+Name: Watusi 3 for WhatsApp
+
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
 Architecture: iphoneos-arm64
