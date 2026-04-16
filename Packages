@@ -70,6 +70,24 @@ Icon: https://i.ibb.co/560w604/IMG-7397.jpg
 Name: Lingvist
 Sileodepiction: https://repo.blatants.fyi/depictions/Lingvist.json
 
+Package: com.blatant.watusicrack
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: blatant <blatantzzz@protonmail.com>
+Installed-Size: 31552
+Filename: ./debs/com.blatant.watusicrack_1.0_iphoneos-arm64e.deb
+Size: 6506358
+MD5sum: c33bc03d0d278d39ce31094b291eb6ae
+SHA1: 22d444943f42b9627f0b272ddc9efb7cdc458947
+SHA256: f3d46f968d8194dbabf29ac49f78ecdbf4e6a8348e6f4e7a027a24914070a195
+Section: Cracks
+Description: Cracked By Blatant
+Author: blatant
+Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
+Icon: https://i.ibb.co/ksjS4dDF/Clean-Shot-2026-01-18-at-01-43-562x.png
+Name: WatusiCrack
+Sileodepiction: https://repo.blatants.fyi/depictions/WatusiCrack.json
+
 Package: com.dvntm.ytlite
 Version: 5.2b4
 Architecture: iphoneos-arm64
