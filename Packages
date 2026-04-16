@@ -143,6 +143,23 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resourc
 Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
+Package: com.f0u4d.watusitools
+Version: 2.7.0
+Architecture: iphoneos-arm64
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Depends: firmware (>= 12.0)
+Conflicts: com.f0u4d.stalky (<< 4.1.33), com.f0u4d.onlinenotify (<< 3.4.11), com.fouadraheb.contactsync (<< 1.1.13), com.fouadraheb.watusi3 (<< 1.2.47)
+Filename: ./debs/com.f0u4d.watusitools_2.7.0_iphoneos-arm64.deb
+Size: 5704014
+MD5sum: fbf62eae3e1e1f763ca8c73eab248633
+SHA1: 13468c5b006091246ab3f76c78bd07816121eed1
+SHA256: 3b631024fc28921e316c856fa8cc09232c87338c9a01ebdea3391e4f81456390
+Section: Development
+Description: Library for Watusi and other WhatsApp tweaks
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://apt.fouadraheb.com/package/com.f0u4d.watusitools
+Name: WatusiTools
+
 Package: com.fouadraheb.regram
 Version: 2.4
 Architecture: iphoneos-arm64
