@@ -70,6 +70,24 @@ Icon: https://i.ibb.co/560w604/IMG-7397.jpg
 Name: Lingvist
 Sileodepiction: https://repo.blatants.fyi/depictions/Lingvist.json
 
+Package: com.blatant.regramcrack
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: blatant <blatantzzz@protonmail.com>
+Installed-Size: 27792
+Filename: ./debs/com.blatant.regramcrack_1.0_iphoneos-arm64e.deb
+Size: 11826116
+MD5sum: e26c4804273081cf3fd32dddb4d77bfb
+SHA1: 5bf74c441877c805940a058d91ed38b8af39df9e
+SHA256: 2f04d7d5d4d0b61da65dd0afd6272c6574aff9a7bfa47391c4a9f667028fd275
+Section: Cracks
+Description: Cracked By Blatant
+Author: blatant
+Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
+Icon: https://i.ibb.co/tJFKTDs/IMG-7671.jpg
+Name: Regram Crack
+Sileodepiction: https://repo.blatants.fyi/depictions/RegramCrk.json
+
 Package: com.blatant.watusicrack
 Version: 1.0
 Architecture: iphoneos-arm64e
