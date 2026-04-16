@@ -69,6 +69,24 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resourc
 Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
+Package: com.dvntm.ytlite
+Version: 5.2b4
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 16732
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_5.2b4_iphoneos-arm64e.deb
+Size: 6409684
+MD5sum: 292d6c66e273489633df92c21b6fca3a
+SHA1: c7f22ec57dc212ce4f152a0e8408a26a5a502ec7
+SHA256: 08dbe988cef49bd8d4a0a996b086f2885cadf46d1b5b9bc2372f562d940c7f5c
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
 Architecture: iphoneos-arm64
@@ -80,6 +98,24 @@ Size: 6566710
 MD5sum: 25acbe5dd2e0d161e88975b369c44725
 SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
 SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Version: 2.4.1
+Architecture: iphoneos-arm64e
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64e.deb
+Size: 6572062
+MD5sum: 1359292410d2fc2a622dd6dfd39b1934
+SHA1: 68d1a86d608218a59484aad9c0c273c5c9bec191
+SHA256: f53220edcf618a500e376a7f8200199ee5e69d6e9cb9cd145bfd9ceafd199c18
 Section: Tweaks
 Description: YouTube Music Premium
 Author: dayanch96 & ginsu
