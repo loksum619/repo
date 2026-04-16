@@ -143,6 +143,26 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resourc
 Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
+Package: com.fouadraheb.regram
+Version: 2.4
+Architecture: iphoneos-arm64
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Installed-Size: 49720
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: xyz.cypwn.watusicrack, xyz.cypwn.watusitools, xyz.cypwn.regram, xyz.cypwn.regramcrack, xyz.cypwn.fouackyou, xyz.cypwn.freegram, xyz.cypwn.onlinenotify, xyz.cypwn.stalky, xyz.cypwn.fr33gram, xyz.cypwn.fouackoff
+Filename: ./debs/com.fouadraheb.regram_2.4_iphoneos-arm64.deb
+Size: 17485466
+MD5sum: ae184d5e9070e490690575174de12fe7
+SHA1: 956d73e04182885f92d009b649a17ebcf0c91727
+SHA256: 111a035ae9304b322c964934263fe2a0610aabe41dbdd9db8db6c6446c4a2a1b
+Section: Tweaks
+Description: The all-in-one tweak for Instagram
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.regram
+Icon: file:///Library/Application Support/Regram/Resources.bundle/logo_filled@3x.png
+Name: Regram for Instagram
+Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.regram
+
 Package: com.fouadraheb.watusi3
 Version: 1.3.1
 Architecture: iphoneos-arm64
