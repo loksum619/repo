@@ -14,6 +14,43 @@ Description: Awesome tweak for Twitter
 Author: Bandar Alruwaili
 Name: BHTwitter
 
+Package: com.blatant.duolingo
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: blatant <blatantzzz@protonmail.com>
+Installed-Size: 6192
+Filename: ./debs/com.blatant.duolingo_1.0_iphoneos-arm64e.deb
+Size: 1357816
+MD5sum: 6f5117a6b8e9ec487fb0e6938ac1fd19
+SHA1: 62182b17099481a2fccd6fbf4ff9f589a273a9ff
+SHA256: a4eee60b2b4f4d2f96023282696ad0d239c7d7e1dfd2dc7c560503bb00a16c9b
+Section: Cracks
+Description: Cracked By Blatant
+Author: blatant
+Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/0c/5f/df0c5f65-4c7c-8680-79f3-510ba742364a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+Name: Duolingo
+Sileodepiction: https://repo.blatants.fyi/depictions/Duolingo.json
+
+Package: com.blatant.lingvist
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: blatant <blatantzzz@protonmail.com>
+Installed-Size: 2952
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.blatant.lingvist_1.0_iphoneos-arm64e.deb
+Size: 446912
+MD5sum: 0d69cd80aa2bdce8a144791e3e9748fe
+SHA1: 5f5fe89d9acda8267db05430e64c48ff2b9ec69d
+SHA256: 8f64428bd46434f05708a4a3e718cdeb5d96b1a7bcee112e7d19aa54dfd277bd
+Section: Cracks
+Description: Cracked By Blatant
+Author: blatant
+Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
+Icon: https://i.ibb.co/560w604/IMG-7397.jpg
+Name: Lingvist
+Sileodepiction: https://repo.blatants.fyi/depictions/Lingvist.json
+
 Package: com.dvntm.ytlite
 Version: 5.2b4
 Architecture: iphoneos-arm64
