@@ -268,6 +268,28 @@ Author: Netskao
 Name: Filza Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
 
+Package: com.netskao.qqipadmodelogin
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 98
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.netskao.qqipadmodelogin_1.1-1_iphoneos-arm64e.deb
+Size: 3490
+MD5sum: d99a1431e5d6e79131223869fe85d75f
+SHA1: 859693ea2ef0ca623a6378b1f90a0ac1ed68eab1
+SHA256: c487c477eb29dcc84f06ac49766a9f96a542b241f4ae0a8a5263323511a90ed0
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqipadmodeloginDp
+Description: QQ simulates iPad mode login
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqipadmodeloginDp
+Dev: netskao
+Name: QQiPadModeLogin
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.netskao.swiftgramcrack
 Version: 1.1-7
 Architecture: iphoneos-arm64
