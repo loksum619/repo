@@ -106,6 +106,24 @@ Icon: https://i.ibb.co/ksjS4dDF/Clean-Shot-2026-01-18-at-01-43-562x.png
 Name: WatusiCrack
 Sileodepiction: https://repo.blatants.fyi/depictions/WatusiCrack.json
 
+Package: com.dvntm.ytlite
+Version: 5.2b4
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 16732
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_5.2b4_iphoneos-arm64e.deb
+Size: 6409684
+MD5sum: 292d6c66e273489633df92c21b6fca3a
+SHA1: c7f22ec57dc212ce4f152a0e8408a26a5a502ec7
+SHA256: 08dbe988cef49bd8d4a0a996b086f2885cadf46d1b5b9bc2372f562d940c7f5c
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
 Package: com.f0u4d.watusitools
 Version: 2.7.0
 Architecture: iphoneos-arm64
