@@ -108,15 +108,15 @@ Sileodepiction: https://repo.blatants.fyi/depictions/WatusiCrack.json
 
 Package: com.dvntm.ytlite
 Version: 5.2b4
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 16732
 Depends: mobilesubstrate
-Filename: ./debs/com.dvntm.ytlite_5.2b4_iphoneos-arm64e.deb
-Size: 6409684
-MD5sum: 292d6c66e273489633df92c21b6fca3a
-SHA1: c7f22ec57dc212ce4f152a0e8408a26a5a502ec7
-SHA256: 08dbe988cef49bd8d4a0a996b086f2885cadf46d1b5b9bc2372f562d940c7f5c
+Filename: ./debs/com.dvntm.ytlite_5.2b4_iphoneos-arm64.deb
+Size: 6415866
+MD5sum: 5134e22aec6d8a3b7e09ce69e49b2dbd
+SHA1: de37ad04ae69ec549e3c4eaf197f131c551a48a0
+SHA256: 9ebeace66909cac0bd1749daaf26113c51d0d6704a58d941f859920fc4a47283
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
