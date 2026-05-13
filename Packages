@@ -14,6 +14,25 @@ Description: Awesome tweak for Twitter
 Author: Bandar Alruwaili
 Name: BHTwitter
 
+Package: com.blatant.dazzcam
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: blatant <blatantzzz@protonmail.com>
+Installed-Size: 3040
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.blatant.dazzcam_1.0_iphoneos-arm64e.deb
+Size: 475928
+MD5sum: 2cd54f462420c8176f261d95e7ef5b41
+SHA1: 935545a309e2f6dcd7b4c700b2187bd88059ca54
+SHA256: 68af1eb3a6c106b18e0303b1ad952a6762aa3aa8ee5aea416111e9282b85e238
+Section: Cracks
+Description: Cracked By Blatant
+Author: blatant
+Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
+Icon: replaceThis
+Name: Dazzcam
+Sileodepiction: https://repo.blatants.fyi/depictions/StockTemplate.json
+
 Package: com.blatant.duolingo
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -50,6 +69,25 @@ Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
 Icon: https://i.ibb.co/f1jX1J8/IMG-7366.jpg
 Name: FlightRadar24
 Sileodepiction: https://repo.blatants.fyi/depictions/FlightRadar24.json
+
+Package: com.blatant.goodnotes6
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: blatant <blatantzzz@protonmail.com>
+Installed-Size: 2792
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.blatant.goodnotes6_1.0_iphoneos-arm64.deb
+Size: 431582
+MD5sum: 1e5b7b03c574d70609c7bee27d61e06f
+SHA1: 2e9dc436a195a823d9a48198b16360d74b4418b8
+SHA256: ebb25f2c6071b073a14e2fba4b8507f9eb7c6708b9f5dc8a4f399eae426e044a
+Section: Cracks
+Description: Cracked By Blatant
+Author: blatant
+Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
+Icon: https://i.postimg.cc/3rzfkrFS/IMG-5419.jpg
+Name: Goodnotes6
+Sileodepiction: https://repo.blatants.fyi/depictions/GoodNotes6.json
 
 Package: com.blatant.lingvist
 Version: 1.0
