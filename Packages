@@ -272,22 +272,6 @@ Author: Netskao
 Name: Swiftgram Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.swiftgramcrack
 
-Package: com.roothide.lockdown
-Version: 1.0.3
-Architecture: iphoneos-arm64e
-Maintainer: roothide
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.roothide.lockdown_1.0.3_iphoneos-arm64e.deb
-Size: 5064
-MD5sum: 2f3697d23296b2c433c02c2ccbe9af94
-SHA1: 93c577dda008d11ece40b6e3545d89a2c4bb2053
-SHA256: 4dec2a9cbff90c11e2a866dacc2b5d934b3f6910f1fee4cc1375b0133cde6506
-Section: Tweaks
-Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Enabled by default!
-Author: roothide
-Name: lockdown
-
 Package: com.socuul.scinsta
 Version: 1.1.1-1+debug
 Architecture: iphoneos-arm64
