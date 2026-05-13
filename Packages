@@ -216,23 +216,6 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/mai
 Name: YTMusicUltimate
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
-Package: com.netskao.dazzcameracrack
-Version: 1.1-4
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 820
-Depends: firmware (>= 15.6), mobilesubstrate
-Filename: ./debs/com.netskao.dazzcameracrack_1.1-4_iphoneos-arm64.deb
-Size: 287872
-MD5sum: 3c84c44c9c1a0266f930e8d897bacefb
-SHA1: a9bf96a8056f8776ac7a61baccf6f949bc1470d9
-SHA256: ac438372087de03823b13fb0467e581650de8c52ba525edd9176389ae16a5321
-Section: Netskao-Tweaks
-Description: DazzCamera Crack
-Author: Netskao
-Name: DazzCamera Crack
-Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.dazzcameracrack
-
 Package: com.netskao.filzacrack
 Version: 1.1-9
 Architecture: iphoneos-arm64
