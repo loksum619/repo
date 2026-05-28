@@ -162,6 +162,22 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resourc
 Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
+Package: com.eevee.spotify
+Version: 6.2.2
+Architecture: iphoneos-arm64
+Maintainer: Eevee
+Installed-Size: 1732
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Filename: ./debs/com.eevee.spotify_6.2.2_iphoneos-arm64.deb
+Size: 451926
+MD5sum: 447422605a1d08f454dc7243f1ff8e68
+SHA1: 245e3bf6465691928f4536fcdb3d9036d05366a9
+SHA256: 782f632fea833ff3d8a4d025304d11ad946a7e69701908cc03ee3836782f6532
+Section: Tweaks
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Author: Eevee
+Name: EeveeSpotify
+
 Package: com.f0u4d.watusitools
 Version: 2.7.0
 Architecture: iphoneos-arm64
