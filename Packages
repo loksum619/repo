@@ -270,6 +270,26 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/mai
 Name: YTMusicUltimate
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
+Package: com.ichitaso.otadisabler
+Version: 0.6
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Installed-Size: 200
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/com.ichitaso.otadisabler_0.6_iphoneos-arm.deb
+Size: 27882
+MD5sum: 7991c7cd7e2f872b99edaed86c14983d
+SHA1: b3e9fdd271205d07080bfa98c9f8f8b1a84ef1ff
+SHA256: fa27a6d2d42dc0fd56eaaead5b6700788a9a825db81ec0e8b2a213d0fd3a9d26
+Section: System
+Homepage: https://ichitaso.com
+Description: Disable OTA and remove badges on home screen, etc.
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
+Icon: https://raw.githubusercontent.com/ichitaso/OTADisabler-App/main/OTADisabler/Icon-60%403x.png
+Name: OTADisabler
+Sileodepiction: https://cydia.ichitaso.com/depiction/otadisabler.json
+
 Package: com.netskao.filzacrack
 Version: 1.1-9
 Architecture: iphoneos-arm64
