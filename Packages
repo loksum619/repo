@@ -178,6 +178,22 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
 
+Package: com.eevee.spotify
+Version: 6.6.2-5+debug
+Architecture: iphoneos-arm64
+Maintainer: Eevee
+Installed-Size: 16432
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./debs/com.eevee.spotify_6.6.2_iphoneos-arm64.deb
+Size: 2329748
+MD5sum: e41672578d4c786ceea37df3c6311ce5
+SHA1: 8e40379bd104703a0c7eda707812c7df7c4ef1b4
+SHA256: 90c30132a8402959ac9ce42983cf1e015620ea32efabbdf171c6d17ab9a00ab7
+Section: Tweaks
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Author: Eevee
+Name: EeveeSpotify
+
 Package: com.f0u4d.watusitools
 Version: 2.7.0
 Architecture: iphoneos-arm64
@@ -236,24 +252,6 @@ Name: Watusi 3 for WhatsApp
 
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
-Architecture: iphoneos-arm64
-Maintainer: dayanch96 & ginsu
-Installed-Size: 17916
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64.deb
-Size: 6566710
-MD5sum: 25acbe5dd2e0d161e88975b369c44725
-SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
-SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
-Section: Tweaks
-Description: YouTube Music Premium
-Author: dayanch96 & ginsu
-Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
-Name: YTMusicUltimate
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
-
-Package: com.ginsu.ytmusicultimate
-Version: 2.4.1
 Architecture: iphoneos-arm64e
 Maintainer: dayanch96 & ginsu
 Installed-Size: 17916
@@ -263,6 +261,24 @@ Size: 6572062
 MD5sum: 1359292410d2fc2a622dd6dfd39b1934
 SHA1: 68d1a86d608218a59484aad9c0c273c5c9bec191
 SHA256: f53220edcf618a500e376a7f8200199ee5e69d6e9cb9cd145bfd9ceafd199c18
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Version: 2.4.1
+Architecture: iphoneos-arm64
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64.deb
+Size: 6566710
+MD5sum: 25acbe5dd2e0d161e88975b369c44725
+SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
+SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
 Section: Tweaks
 Description: YouTube Music Premium
 Author: dayanch96 & ginsu
