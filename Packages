@@ -318,6 +318,63 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/mai
 Name: YTMusicUltimate
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
+Package: com.huami.dyyy
+Version: 2.2-8
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2036
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/DYYY_2.2-8_01032350-arm64e.deb
+Size: 436034
+MD5sum: 8b358dba75abdef64cf8cd5c5f1b3a57
+SHA1: cc5727b70e66dc8443c382e2d65225342d0f661b
+SHA256: 0ff3d5c52cbc9f24213538aef127c2e6f3a4c0e6d90b4eaeb92b48c5fd3ceaec
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.2-8
+Architecture: iphoneos-arm
+Maintainer: huami
+Installed-Size: 2036
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/DYYY_2.2-8_01032350-arm.deb
+Size: 438372
+MD5sum: 8155f9e5f03201561b9dad70ab0e02ba
+SHA1: 1056f239c5c9488609ef395a4a6f319ebe101f57
+SHA256: 24f65130ee1d344599a294df7a77eac536b40d4a939bc7633181926a898a2181
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.2-8
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2036
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/DYYY_2.2-8_01032350-arm64.deb
+Size: 436604
+MD5sum: 2c9038b7434b42b04e5e7d305bdcf5e9
+SHA1: 8cd2e07b940e6ca63737f07413faf7809b6c1a46
+SHA256: a6804329f2a4d7dbb6d4239fd7b5e57e5cc7fa6855832a3b0a59f050c54e2f7d
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
 Package: com.ichitaso.otadisabler
 Version: 0.6
 Architecture: iphoneos-arm
