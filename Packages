@@ -1,3 +1,35 @@
+Package: com.34306.watched
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: Little 34306
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.34306.watched_2.0_iphoneos-arm64e.deb
+Size: 5544
+MD5sum: 6a7e15e8764103247f7abc05e89aa450
+SHA1: 57c6c7ce5600242dc73032dd53750ec274bd0587
+SHA256: 082c893af70a7e626f1852ef6916fd6c5d0a00a4b4c15f01b2bcb3a17b145637
+Section: Tweaks
+Description: Pair your Apple Watch on a newer watchOS than this iOS supports
+Author: 34306
+Name: watched
+
+Package: com.34306.watched
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Little 34306
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.34306.watched_2.0_iphoneos-arm64.deb
+Size: 5602
+MD5sum: 460801249d001dcb607e1ec5b5840234
+SHA1: b6cbec4549a23be442d6b1e740ec64d34c32fa34
+SHA256: e5f5137fc1e85270ff4f125d707cd9c1680cc9304017031e351d669d1dbe2593
+Section: Tweaks
+Description: Pair your Apple Watch on a newer watchOS than this iOS supports
+Author: 34306
+Name: watched
+
 Package: com.bandarhl.bhtwitter
 Version: 4.4-1+debug
 Architecture: iphoneos-arm64
@@ -284,24 +316,6 @@ Name: Watusi 3 for WhatsApp
 
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
-Architecture: iphoneos-arm64e
-Maintainer: dayanch96 & ginsu
-Installed-Size: 17916
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64e.deb
-Size: 6572062
-MD5sum: 1359292410d2fc2a622dd6dfd39b1934
-SHA1: 68d1a86d608218a59484aad9c0c273c5c9bec191
-SHA256: f53220edcf618a500e376a7f8200199ee5e69d6e9cb9cd145bfd9ceafd199c18
-Section: Tweaks
-Description: YouTube Music Premium
-Author: dayanch96 & ginsu
-Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
-Name: YTMusicUltimate
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
-
-Package: com.ginsu.ytmusicultimate
-Version: 2.4.1
 Architecture: iphoneos-arm64
 Maintainer: dayanch96 & ginsu
 Installed-Size: 17916
@@ -311,6 +325,24 @@ Size: 6566710
 MD5sum: 25acbe5dd2e0d161e88975b369c44725
 SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
 SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Version: 2.4.1
+Architecture: iphoneos-arm64e
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64e.deb
+Size: 6572062
+MD5sum: 1359292410d2fc2a622dd6dfd39b1934
+SHA1: 68d1a86d608218a59484aad9c0c273c5c9bec191
+SHA256: f53220edcf618a500e376a7f8200199ee5e69d6e9cb9cd145bfd9ceafd199c18
 Section: Tweaks
 Description: YouTube Music Premium
 Author: dayanch96 & ginsu
@@ -339,15 +371,15 @@ Name: DYYY
 
 Package: com.huami.dyyy
 Version: 2.2-8
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: huami
 Installed-Size: 2036
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/DYYY_2.2-8_01032350-arm.deb
-Size: 438372
-MD5sum: 8155f9e5f03201561b9dad70ab0e02ba
-SHA1: 1056f239c5c9488609ef395a4a6f319ebe101f57
-SHA256: 24f65130ee1d344599a294df7a77eac536b40d4a939bc7633181926a898a2181
+Filename: ./debs/DYYY_2.2-8_01032350-arm64.deb
+Size: 436604
+MD5sum: 2c9038b7434b42b04e5e7d305bdcf5e9
+SHA1: 8cd2e07b940e6ca63737f07413faf7809b6c1a46
+SHA256: a6804329f2a4d7dbb6d4239fd7b5e57e5cc7fa6855832a3b0a59f050c54e2f7d
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -358,15 +390,15 @@ Name: DYYY
 
 Package: com.huami.dyyy
 Version: 2.2-8
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: huami
 Installed-Size: 2036
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/DYYY_2.2-8_01032350-arm64.deb
-Size: 436604
-MD5sum: 2c9038b7434b42b04e5e7d305bdcf5e9
-SHA1: 8cd2e07b940e6ca63737f07413faf7809b6c1a46
-SHA256: a6804329f2a4d7dbb6d4239fd7b5e57e5cc7fa6855832a3b0a59f050c54e2f7d
+Filename: ./debs/DYYY_2.2-8_01032350-arm.deb
+Size: 438372
+MD5sum: 8155f9e5f03201561b9dad70ab0e02ba
+SHA1: 1056f239c5c9488609ef395a4a6f319ebe101f57
+SHA256: 24f65130ee1d344599a294df7a77eac536b40d4a939bc7633181926a898a2181
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
