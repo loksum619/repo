@@ -46,6 +46,23 @@ Description: Awesome tweak for Twitter
 Author: Bandar Alruwaili
 Name: BHTwitter
 
+Package: com.bandarhl.bhtwitter
+Version: 6.7.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: NeoFreeBird
+Installed-Size: 13624
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.den.twigalaxy, xyz.cypwn.twigalaxy, xyz.cypwn.bhtwitter, com.netskao.twitternoads, xyz.cypwn.bringbacktwitter
+Filename: ./debs/com.bandarhl.bhtwitter_6.7.0-1+debug_iphoneos-arm64.deb
+Size: 4727060
+MD5sum: 3d95999c715fbedac748476418c55d60
+SHA1: 2c81df34d6ec0925e87e17517f9f48aca9d25aba
+SHA256: 2516e7f0173fd831a23f8eff20d8f667da464e3b18fb361d5ae3e010252cc7cf
+Section: Tweaks
+Description: Awesome tweak for Twitter
+Author: NeoFreeBird
+Name: orionblur-NFB-BHTwitter
+
 Package: com.blatant.dazzcam
 Version: 1.0
 Architecture: iphoneos-arm64e
