@@ -245,6 +245,22 @@ Name: EeveeSpotify
 
 Package: com.eevee.spotify
 Version: 6.6.8
+Architecture: iphoneos-arm64e
+Maintainer: jaydenjcpy
+Installed-Size: 24416
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./debs/com.eevee.spotify_6.6.8_iphoneos-arm64e-roothide.deb
+Size: 2058428
+MD5sum: c75433013ede46bd1155f9669e0cd004
+SHA1: 87516df5c2e238ec9703fa840edb5916e1f1b14e
+SHA256: a3ca60351ac8a790fa53fbe160ea19d1828a0d3e5963b1109a323938212a1c6f
+Section: Tweaks
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Author: Eevee
+Name: EeveeSpotify
+
+Package: com.eevee.spotify
+Version: 6.6.8
 Architecture: iphoneos-arm64
 Maintainer: jaydenjcpy
 Installed-Size: 24348
@@ -260,16 +276,32 @@ Author: Eevee
 Name: EeveeSpotify
 
 Package: com.eevee.spotify
-Version: 6.6.8
+Version: 7.0.0
 Architecture: iphoneos-arm64e
 Maintainer: jaydenjcpy
-Installed-Size: 24416
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
-Filename: ./debs/com.eevee.spotify_6.6.8_iphoneos-arm64e-roothide.deb
-Size: 2058428
-MD5sum: c75433013ede46bd1155f9669e0cd004
-SHA1: 87516df5c2e238ec9703fa840edb5916e1f1b14e
-SHA256: a3ca60351ac8a790fa53fbe160ea19d1828a0d3e5963b1109a323938212a1c6f
+Installed-Size: 26532
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/com.eevee.spotify_7.0.0_iphoneos-arm64e-roothide.deb
+Size: 2609642
+MD5sum: 7c498cd2f1130029d6839c51475815e9
+SHA1: 255e5f589381e47991be890308af8bbc7b48fd25
+SHA256: 945bfe90ac99a3c30daa4a8b4ffc50eacd4621b95b7f1a53b3f9ad0db587d69b
+Section: Tweaks
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Author: Eevee
+Name: EeveeSpotify
+
+Package: com.eevee.spotify
+Version: 7.0.0
+Architecture: iphoneos-arm64
+Maintainer: jaydenjcpy
+Installed-Size: 26480
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/com.eevee.spotify_7.0.0_iphoneos-arm64.deb
+Size: 2535140
+MD5sum: a2a9a5dcdeb8af8ba7dab00a4d5516ef
+SHA1: 7e996eedc5f34825439a6bb892fc711056f937b4
+SHA256: 513a50b197aa558c34b02b87bff9f46e6cad3b2e462ee8622fc72fd939e83a9b
 Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
@@ -333,24 +365,6 @@ Name: Watusi 3 for WhatsApp
 
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
-Architecture: iphoneos-arm64
-Maintainer: dayanch96 & ginsu
-Installed-Size: 17916
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64.deb
-Size: 6566710
-MD5sum: 25acbe5dd2e0d161e88975b369c44725
-SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
-SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
-Section: Tweaks
-Description: YouTube Music Premium
-Author: dayanch96 & ginsu
-Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
-Name: YTMusicUltimate
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
-
-Package: com.ginsu.ytmusicultimate
-Version: 2.4.1
 Architecture: iphoneos-arm64e
 Maintainer: dayanch96 & ginsu
 Installed-Size: 17916
@@ -367,24 +381,23 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/mai
 Name: YTMusicUltimate
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
-Package: com.huami.dyyy
-Version: 2.2-8
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Installed-Size: 2036
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/DYYY_2.2-8_01032350-arm64e.deb
-Size: 436034
-MD5sum: 8b358dba75abdef64cf8cd5c5f1b3a57
-SHA1: cc5727b70e66dc8443c382e2d65225342d0f661b
-SHA256: 0ff3d5c52cbc9f24213538aef127c2e6f3a4c0e6d90b4eaeb92b48c5fd3ceaec
+Package: com.ginsu.ytmusicultimate
+Version: 2.4.1
+Architecture: iphoneos-arm64
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64.deb
+Size: 6566710
+MD5sum: 25acbe5dd2e0d161e88975b369c44725
+SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
+SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
 Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
 Package: com.huami.dyyy
 Version: 2.2-8
@@ -416,6 +429,25 @@ Size: 438372
 MD5sum: 8155f9e5f03201561b9dad70ab0e02ba
 SHA1: 1056f239c5c9488609ef395a4a6f319ebe101f57
 SHA256: 24f65130ee1d344599a294df7a77eac536b40d4a939bc7633181926a898a2181
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.2-8
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2036
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/DYYY_2.2-8_01032350-arm64e.deb
+Size: 436034
+MD5sum: 8b358dba75abdef64cf8cd5c5f1b3a57
+SHA1: cc5727b70e66dc8443c382e2d65225342d0f661b
+SHA256: 0ff3d5c52cbc9f24213538aef127c2e6f3a4c0e6d90b4eaeb92b48c5fd3ceaec
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
