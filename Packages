@@ -30,6 +30,22 @@ Description: Pair your Apple Watch on a newer watchOS than this iOS supports
 Author: 34306
 Name: watched
 
+Package: com.82flex.unseen
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: 82flex
+Installed-Size: 492
+Depends: firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.82flex.unseen_0.0.5_iphoneos-arm.deb
+Size: 49816
+MD5sum: 3e726f31ca67f0571b341612e7ae9137
+SHA1: 7dc48057c5a0b445727a56f5f77aa86f13698f4c
+SHA256: 6c4aa0ca5a6f44a5ccc1c41d303f604edee80e1bf860abd8a06e95049a10c57d
+Section: Tweaks
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Author: 82flex
+Name: Unseen
+
 Package: com.bandarhl.bhtwitter
 Version: 4.4-1+debug
 Architecture: iphoneos-arm64
