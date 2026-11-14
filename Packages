@@ -1,21 +1,5 @@
 Package: com.34306.watched
 Version: 2.0
-Architecture: iphoneos-arm64e
-Maintainer: Little 34306
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.34306.watched_2.0_iphoneos-arm64e.deb
-Size: 5544
-MD5sum: 6a7e15e8764103247f7abc05e89aa450
-SHA1: 57c6c7ce5600242dc73032dd53750ec274bd0587
-SHA256: 082c893af70a7e626f1852ef6916fd6c5d0a00a4b4c15f01b2bcb3a17b145637
-Section: Tweaks
-Description: Pair your Apple Watch on a newer watchOS than this iOS supports
-Author: 34306
-Name: watched
-
-Package: com.34306.watched
-Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: Little 34306
 Installed-Size: 168
@@ -25,6 +9,22 @@ Size: 5602
 MD5sum: 460801249d001dcb607e1ec5b5840234
 SHA1: b6cbec4549a23be442d6b1e740ec64d34c32fa34
 SHA256: e5f5137fc1e85270ff4f125d707cd9c1680cc9304017031e351d669d1dbe2593
+Section: Tweaks
+Description: Pair your Apple Watch on a newer watchOS than this iOS supports
+Author: 34306
+Name: watched
+
+Package: com.34306.watched
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: Little 34306
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.34306.watched_2.0_iphoneos-arm64e.deb
+Size: 5544
+MD5sum: 6a7e15e8764103247f7abc05e89aa450
+SHA1: 57c6c7ce5600242dc73032dd53750ec274bd0587
+SHA256: 082c893af70a7e626f1852ef6916fd6c5d0a00a4b4c15f01b2bcb3a17b145637
 Section: Tweaks
 Description: Pair your Apple Watch on a newer watchOS than this iOS supports
 Author: 34306
@@ -49,22 +49,6 @@ Name: Unseen
 
 Package: com.82flex.unseen
 Version: 0.0.5
-Architecture: iphoneos-arm64
-Maintainer: 82flex
-Installed-Size: 492
-Depends: firmware (>= 14.0), preferenceloader
-Filename: ./debs/com.82flex.unseen_0.0.5_iphoneos-arm64.deb
-Size: 49876
-MD5sum: 2905eaa7b25d9dbad0fd7b4b6e301405
-SHA1: ded053762c6d76ce461ca87f448620faa8c65587
-SHA256: 74f8a1df69bf25ef3a733d4b783ceeb657b61aed9872790f5e2af72f17139ebb
-Section: Tweaks
-Description: Neutralizes CALayer disableUpdateMask in the render server
-Author: 82flex
-Name: Unseen
-
-Package: com.82flex.unseen
-Version: 0.0.5
 Architecture: iphoneos-arm
 Maintainer: 82flex
 Installed-Size: 492
@@ -74,6 +58,22 @@ Size: 49816
 MD5sum: 3e726f31ca67f0571b341612e7ae9137
 SHA1: 7dc48057c5a0b445727a56f5f77aa86f13698f4c
 SHA256: 6c4aa0ca5a6f44a5ccc1c41d303f604edee80e1bf860abd8a06e95049a10c57d
+Section: Tweaks
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Author: 82flex
+Name: Unseen
+
+Package: com.82flex.unseen
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: 82flex
+Installed-Size: 492
+Depends: firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.82flex.unseen_0.0.5_iphoneos-arm64.deb
+Size: 49876
+MD5sum: 2905eaa7b25d9dbad0fd7b4b6e301405
+SHA1: ded053762c6d76ce461ca87f448620faa8c65587
+SHA256: 74f8a1df69bf25ef3a733d4b783ceeb657b61aed9872790f5e2af72f17139ebb
 Section: Tweaks
 Description: Neutralizes CALayer disableUpdateMask in the render server
 Author: 82flex
@@ -294,22 +294,6 @@ Name: EeveeSpotify
 
 Package: com.eevee.spotify
 Version: 6.6.8
-Architecture: iphoneos-arm64e
-Maintainer: jaydenjcpy
-Installed-Size: 24416
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
-Filename: ./debs/com.eevee.spotify_6.6.8_iphoneos-arm64e-roothide.deb
-Size: 2058428
-MD5sum: c75433013ede46bd1155f9669e0cd004
-SHA1: 87516df5c2e238ec9703fa840edb5916e1f1b14e
-SHA256: a3ca60351ac8a790fa53fbe160ea19d1828a0d3e5963b1109a323938212a1c6f
-Section: Tweaks
-Description: A tweak to get Spotify Premium for free, just like Spotilife
-Author: Eevee
-Name: EeveeSpotify
-
-Package: com.eevee.spotify
-Version: 6.6.8
 Architecture: iphoneos-arm64
 Maintainer: jaydenjcpy
 Installed-Size: 24348
@@ -319,6 +303,22 @@ Size: 1987342
 MD5sum: 2bd7eca1091f6a12dd76457278fc0d38
 SHA1: 72cd13f3a41bac1fa94e8ee2210e9ee2d544dc2c
 SHA256: e04ef60a509a47bb0a74701202a4840a941f80f32ffb38e96c9e8583bd93fa83
+Section: Tweaks
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Author: Eevee
+Name: EeveeSpotify
+
+Package: com.eevee.spotify
+Version: 6.6.8
+Architecture: iphoneos-arm64e
+Maintainer: jaydenjcpy
+Installed-Size: 24416
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: ./debs/com.eevee.spotify_6.6.8_iphoneos-arm64e-roothide.deb
+Size: 2058428
+MD5sum: c75433013ede46bd1155f9669e0cd004
+SHA1: 87516df5c2e238ec9703fa840edb5916e1f1b14e
+SHA256: a3ca60351ac8a790fa53fbe160ea19d1828a0d3e5963b1109a323938212a1c6f
 Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
@@ -351,6 +351,38 @@ Size: 2609642
 MD5sum: 7c498cd2f1130029d6839c51475815e9
 SHA1: 255e5f589381e47991be890308af8bbc7b48fd25
 SHA256: 945bfe90ac99a3c30daa4a8b4ffc50eacd4621b95b7f1a53b3f9ad0db587d69b
+Section: Tweaks
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Author: Eevee
+Name: EeveeSpotify
+
+Package: com.eevee.spotify
+Version: 7.0.1
+Architecture: iphoneos-arm64
+Maintainer: jaydenjcpy
+Installed-Size: 26448
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/com.eevee.spotify_7.0.1_iphoneos-arm64.deb
+Size: 2526578
+MD5sum: e768ee808446b03e0037399331a657cb
+SHA1: 304c72a42ed7e681d7b2e466b6bdcd6a92e40a86
+SHA256: 925a883f0dcc29c07eebd8321945c6b96ed06f61944a175fbffef1f83cf53e27
+Section: Tweaks
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Author: Eevee
+Name: EeveeSpotify
+
+Package: com.eevee.spotify
+Version: 7.0.1
+Architecture: iphoneos-arm64e
+Maintainer: jaydenjcpy
+Installed-Size: 26516
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/com.eevee.spotify_7.0.1_iphoneos-arm64e-roothide.deb
+Size: 2601680
+MD5sum: 82e6bc12bb43d1dfe5ae47ace8731379
+SHA1: af4b30902d6d6b044162397b4f5f2a41c2623258
+SHA256: a6898c9a5613dd64518f52c7e7d689b9d0322cc725b88d3e68eaf3a8f8cad644
 Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
@@ -450,6 +482,25 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main
 
 Package: com.huami.dyyy
 Version: 2.2-8
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2036
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/DYYY_2.2-8_01032350-arm64.deb
+Size: 436604
+MD5sum: 2c9038b7434b42b04e5e7d305bdcf5e9
+SHA1: 8cd2e07b940e6ca63737f07413faf7809b6c1a46
+SHA256: a6804329f2a4d7dbb6d4239fd7b5e57e5cc7fa6855832a3b0a59f050c54e2f7d
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.2-8
 Architecture: iphoneos-arm64e
 Maintainer: huami
 Installed-Size: 2036
@@ -478,25 +529,6 @@ Size: 438372
 MD5sum: 8155f9e5f03201561b9dad70ab0e02ba
 SHA1: 1056f239c5c9488609ef395a4a6f319ebe101f57
 SHA256: 24f65130ee1d344599a294df7a77eac536b40d4a939bc7633181926a898a2181
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.2-8
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 2036
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/DYYY_2.2-8_01032350-arm64.deb
-Size: 436604
-MD5sum: 2c9038b7434b42b04e5e7d305bdcf5e9
-SHA1: 8cd2e07b940e6ca63737f07413faf7809b6c1a46
-SHA256: a6804329f2a4d7dbb6d4239fd7b5e57e5cc7fa6855832a3b0a59f050c54e2f7d
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
