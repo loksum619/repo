@@ -159,6 +159,42 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resourc
 Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
+Package: com.dvntm.ytlite
+Version: 6.0
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 40592
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_6.0_iphoneos-arm64e_patched_SpyG.deb
+Size: 14075516
+MD5sum: 69ae1e941bb31a10dcba233914d86296
+SHA1: 8660b6af32b9399ae5dcd5fa15146fa04bb6dcd3
+SHA256: f6af774ef327389b0f93005350402c9d922aeb5e259f4909627bc1cbd4ee464a
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 6.0
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 40592
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_6.0_iphoneos-arm64_patched_SpyG.deb
+Size: 14070656
+MD5sum: f2733e00e00e43efce361daf4a508d60
+SHA1: efdf6b975d80c1fab81fff097f6ab19d0e2fd3cb
+SHA256: 1ee991e5ccdee10fcc99ade0ce789ec172cb21ea9d935e831b5bbb5c720ce1e4
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
 Package: com.eevee.spotify
 Version: 7.5.0
 Architecture: iphoneos-arm64e
