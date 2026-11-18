@@ -228,38 +228,6 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.eevee.spotify
-Version: 7.0.0
-Architecture: iphoneos-arm64e
-Maintainer: jaydenjcpy
-Installed-Size: 26532
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Filename: ./debs/com.eevee.spotify_7.0.0_iphoneos-arm64e-roothide.deb
-Size: 2609642
-MD5sum: 7c498cd2f1130029d6839c51475815e9
-SHA1: 255e5f589381e47991be890308af8bbc7b48fd25
-SHA256: 945bfe90ac99a3c30daa4a8b4ffc50eacd4621b95b7f1a53b3f9ad0db587d69b
-Section: Tweaks
-Description: A tweak to get Spotify Premium for free, just like Spotilife
-Author: Eevee
-Name: EeveeSpotify
-
-Package: com.eevee.spotify
-Version: 7.0.1
-Architecture: iphoneos-arm64
-Maintainer: jaydenjcpy
-Installed-Size: 26448
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Filename: ./debs/com.eevee.spotify_7.0.1_iphoneos-arm64.deb
-Size: 2526578
-MD5sum: e768ee808446b03e0037399331a657cb
-SHA1: 304c72a42ed7e681d7b2e466b6bdcd6a92e40a86
-SHA256: 925a883f0dcc29c07eebd8321945c6b96ed06f61944a175fbffef1f83cf53e27
-Section: Tweaks
-Description: A tweak to get Spotify Premium for free, just like Spotilife
-Author: Eevee
-Name: EeveeSpotify
-
-Package: com.eevee.spotify
 Version: 7.0.1
 Architecture: iphoneos-arm64e
 Maintainer: jaydenjcpy
