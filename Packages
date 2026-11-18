@@ -227,6 +227,26 @@ Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
 
+Package: com.fouadraheb.regram
+Version: 7.0
+Architecture: iphoneos-arm64
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Installed-Size: 61088
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.b4db1r3.cleancopy
+Filename: ./debs/com.fouadraheb.regram_7.0_iphoneos-arm64_patched_Spy_G.deb
+Size: 20613832
+MD5sum: f6ed6e6d25324f1b3fa4e1fb95de7a60
+SHA1: 9bd67a62af606a59d8273699062be875d0dee621
+SHA256: 140cf457cb47773d807fde11b6d359d38bda75e2414a56fea0d8537f0c96a0e8
+Section: Tweaks
+Description: The all-in-one tweak for Instagram
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.regram
+Icon: file:///var/jb/Library/Application Support/Regram/Resources.bundle/logo_filled@3x.png
+Name: Regram for Instagram
+Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.regram
+
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
 Architecture: iphoneos-arm64e
