@@ -79,39 +79,6 @@ Description: Neutralizes CALayer disableUpdateMask in the render server
 Author: 82flex
 Name: Unseen
 
-Package: com.bandarhl.bhtwitter
-Version: 4.4-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Bandar Alruwaili
-Installed-Size: 18344
-Depends: mobilesubstrate, ws.hbang.common
-Filename: ./debs/com.bandarhl.bhtwitter_4.4-1+debug_iphoneos-arm64.deb
-Size: 7336826
-MD5sum: e88fb9afcd5b5670457af330bd4a0891
-SHA1: 7553fbe5665571351da924d9b64b747b18876bdb
-SHA256: 4060410fd9244a5a91a9ab852f828ada7ea55552a59c645a0f30fa41668ada76
-Section: Tweaks
-Description: Awesome tweak for Twitter
-Author: Bandar Alruwaili
-Name: BHTwitter
-
-Package: com.bandarhl.bhtwitter
-Version: 6.7.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: NeoFreeBird
-Installed-Size: 13624
-Depends: mobilesubstrate, ws.hbang.common
-Conflicts: com.den.twigalaxy, xyz.cypwn.twigalaxy, xyz.cypwn.bhtwitter, com.netskao.twitternoads, xyz.cypwn.bringbacktwitter
-Filename: ./debs/com.bandarhl.bhtwitter_6.7.0-1+debug_iphoneos-arm64.deb
-Size: 4727060
-MD5sum: 3d95999c715fbedac748476418c55d60
-SHA1: 2c81df34d6ec0925e87e17517f9f48aca9d25aba
-SHA256: 2516e7f0173fd831a23f8eff20d8f667da464e3b18fb361d5ae3e010252cc7cf
-Section: Tweaks
-Description: Awesome tweak for Twitter
-Author: NeoFreeBird
-Name: orionblur-NFB-BHTwitter
-
 Package: com.blatant.dazzcam
 Version: 1.0
 Architecture: iphoneos-arm64e
