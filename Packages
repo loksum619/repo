@@ -645,6 +645,40 @@ Author: Netskao
 Name: Swiftgram Crack
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.swiftgramcrack
 
+Package: com.nfb.tweak
+Version: 7.3.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: NeoFreeBird
+Installed-Size: 14128
+Depends: mobilesubstrate
+Conflicts: com.den.twigalaxy, xyz.cypwn.twigalaxy, xyz.cypwn.bhtwitter, com.netskao.twitternoads, xyz.cypwn.bringbacktwitter
+Filename: ./debs/com.nfb.tweak_7.3.1-1+debug_iphoneos-arm.deb
+Size: 4852568
+MD5sum: 9d44acdbf9c826225d5c41e56d4c99dd
+SHA1: 12df113843cb203b711224a364be8efa8afdc530
+SHA256: 30dd3bf4f0902d7ce90abbf6a382bae766a4c89080a639d0dfd06b1a10e469ac
+Section: Tweaks
+Description: A tweak which brings back the old Twitter experience, with the features of X.
+Author: NeoFreeBird
+Name: NeoFreeBird
+
+Package: com.nfb.tweak
+Version: 7.3.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: NeoFreeBird
+Installed-Size: 14128
+Depends: mobilesubstrate
+Conflicts: com.den.twigalaxy, xyz.cypwn.twigalaxy, xyz.cypwn.bhtwitter, com.netskao.twitternoads, xyz.cypwn.bringbacktwitter
+Filename: ./debs/com.nfb.tweak_7.3.1-1+debug_iphoneos-arm64.deb
+Size: 4852646
+MD5sum: 9a340d91a6ff1e3faf97f02e3a5f5737
+SHA1: d8abadd5271d56b6f09905bc2e89f88ac3916270
+SHA256: 853a887fd6e230b700cede591d5a43238a9336b986a17a830b34c6146b0fb3e0
+Section: Tweaks
+Description: A tweak which brings back the old Twitter experience, with the features of X.
+Author: NeoFreeBird
+Name: NeoFreeBird
+
 Package: com.socuul.scinsta
 Version: 1.1.1-1+debug
 Architecture: iphoneos-arm64
