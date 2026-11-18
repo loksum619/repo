@@ -173,24 +173,6 @@ Icon: https://i.ibb.co/560w604/IMG-7397.jpg
 Name: Lingvist
 Sileodepiction: https://repo.blatants.fyi/depictions/Lingvist.json
 
-Package: com.blatant.regramcrack
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: blatant <blatantzzz@protonmail.com>
-Installed-Size: 27792
-Filename: ./debs/com.blatant.regramcrack_1.0_iphoneos-arm64e.deb
-Size: 11826116
-MD5sum: e26c4804273081cf3fd32dddb4d77bfb
-SHA1: 5bf74c441877c805940a058d91ed38b8af39df9e
-SHA256: 2f04d7d5d4d0b61da65dd0afd6272c6574aff9a7bfa47391c4a9f667028fd275
-Section: Cracks
-Description: Cracked By Blatant
-Author: blatant
-Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
-Icon: https://i.ibb.co/tJFKTDs/IMG-7671.jpg
-Name: Regram Crack
-Sileodepiction: https://repo.blatants.fyi/depictions/RegramCrk.json
-
 Package: com.blatant.watusicrack
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -258,62 +240,6 @@ Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
-
-Package: com.f0u4d.watusitools
-Version: 2.7.0
-Architecture: iphoneos-arm64
-Maintainer: Fouad Raheb <support@fouadraheb.com>
-Depends: firmware (>= 12.0)
-Conflicts: com.f0u4d.stalky (<< 4.1.33), com.f0u4d.onlinenotify (<< 3.4.11), com.fouadraheb.contactsync (<< 1.1.13), com.fouadraheb.watusi3 (<< 1.2.47)
-Filename: ./debs/com.f0u4d.watusitools_2.7.0_iphoneos-arm64.deb
-Size: 5704014
-MD5sum: fbf62eae3e1e1f763ca8c73eab248633
-SHA1: 13468c5b006091246ab3f76c78bd07816121eed1
-SHA256: 3b631024fc28921e316c856fa8cc09232c87338c9a01ebdea3391e4f81456390
-Section: Development
-Description: Library for Watusi and other WhatsApp tweaks
-Author: Fouad Raheb <support@fouadraheb.com>
-Depiction: https://apt.fouadraheb.com/package/com.f0u4d.watusitools
-Name: WatusiTools
-
-Package: com.fouadraheb.regram
-Version: 2.4
-Architecture: iphoneos-arm64
-Maintainer: Fouad Raheb <support@fouadraheb.com>
-Installed-Size: 49720
-Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: xyz.cypwn.watusicrack, xyz.cypwn.watusitools, xyz.cypwn.regram, xyz.cypwn.regramcrack, xyz.cypwn.fouackyou, xyz.cypwn.freegram, xyz.cypwn.onlinenotify, xyz.cypwn.stalky, xyz.cypwn.fr33gram, xyz.cypwn.fouackoff
-Filename: ./debs/com.fouadraheb.regram_2.4_iphoneos-arm64.deb
-Size: 17485466
-MD5sum: ae184d5e9070e490690575174de12fe7
-SHA1: 956d73e04182885f92d009b649a17ebcf0c91727
-SHA256: 111a035ae9304b322c964934263fe2a0610aabe41dbdd9db8db6c6446c4a2a1b
-Section: Tweaks
-Description: The all-in-one tweak for Instagram
-Author: Fouad Raheb <support@fouadraheb.com>
-Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.regram
-Icon: file:///Library/Application Support/Regram/Resources.bundle/logo_filled@3x.png
-Name: Regram for Instagram
-Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.regram
-
-Package: com.fouadraheb.watusi3
-Version: 1.3.1
-Architecture: iphoneos-arm64
-Maintainer: Fouad Raheb <support@fouadraheb.com>
-Installed-Size: 9420
-Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000), com.f0u4d.watusitools (>= 2.7.0)
-Conflicts: com.fouadraheb.watusi, com.f0u4d.watusi, org.thebigboss.watusi, xyz.cypwn.wtspatch, xyz.cypwn.watusicrack, xyz.cypwn.watusitools, xyz.cypwn.onlinenotify, xyz.cypwn.stalky, xyz.cypwn.regram, xyz.cypwn.regramcrack, xyz.cypwn.fouackyou, xyz.cypwn.freegram, xyz.cypwn.freegram389628, xyz.cypwn.fouackoff104033, xyz.cypwn.fouackoff568297, xyz.cypwn.fouackoff729766, xyz.cypwn.freegram335030, xyz.cypwn.freegram342921
-Filename: ./debs/com.fouadraheb.watusi3_1.3.1_iphoneos-arm64.deb
-Size: 2518440
-MD5sum: 471a5c653f49512826c7191766b66531
-SHA1: 655edaa2797b09d2ed1cab38ffc43a97c264b6a5
-SHA256: 9535c1e22d062f40e5465967a638727c59e5e2bc32cb5fc6b7f0f0fd2fe624f5
-Section: Tweaks
-Description: The all-in-one tweak for WhatsApp Messenger
-Author: Fouad Raheb <support@fouadraheb.com>
-Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.watusi3
-Icon: file:///Library/Application Support/Watusi/Resources.bundle/Settings.bundle/WatusiSettingsLogo@3x.png
-Name: Watusi 3 for WhatsApp
 
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
@@ -466,23 +392,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqipadmode
 Dev: netskao
 Name: QQiPadModeLogin
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.netskao.swiftgramcrack
-Version: 1.1-7
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 1080
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.netskao.swiftgramcrack_1.1-7_iphoneos-arm64.deb
-Size: 424860
-MD5sum: 962cb88a52cb68ff78414c52df6d9a08
-SHA1: 9b36afbf05ab098eebb8d8004fa5de9064dcbf05
-SHA256: 0eddc3ad197497e69c15aa193002c81318ab8b0d52adf71867e4e14da224f4e3
-Section: Netskao-Tweaks
-Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
-Author: Netskao
-Name: Swiftgram Crack
-Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.swiftgramcrack
 
 Package: com.nfb.tweak
 Version: 7.3.1-1+debug
