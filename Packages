@@ -141,6 +141,24 @@ Icon: https://i.ibb.co/560w604/IMG-7397.jpg
 Name: Lingvist
 Sileodepiction: https://repo.blatants.fyi/depictions/Lingvist.json
 
+Package: com.dvntm.ytlite
+Version: 6.0
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 40592
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_6.0_iphoneos-arm_patched_SpyG.deb
+Size: 14077844
+MD5sum: 91e0b207d91ffef9a3799c592e14caf8
+SHA1: 8cba979f7fb57c4075afd33b04d5dc2bfe1ecefd
+SHA256: 216cf4007e03b057c645f7631ffcb8c53d00c51ebe50a829150d660a6a1c0ad3
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
 Package: com.eevee.spotify
 Version: 7.5.0
 Architecture: iphoneos-arm64e
