@@ -228,22 +228,6 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.eevee.spotify
-Version: 7.0.1
-Architecture: iphoneos-arm64e
-Maintainer: jaydenjcpy
-Installed-Size: 26516
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Filename: ./debs/com.eevee.spotify_7.0.1_iphoneos-arm64e-roothide.deb
-Size: 2601680
-MD5sum: 82e6bc12bb43d1dfe5ae47ace8731379
-SHA1: af4b30902d6d6b044162397b4f5f2a41c2623258
-SHA256: a6898c9a5613dd64518f52c7e7d689b9d0322cc725b88d3e68eaf3a8f8cad644
-Section: Tweaks
-Description: A tweak to get Spotify Premium for free, just like Spotilife
-Author: Eevee
-Name: EeveeSpotify
-
-Package: com.eevee.spotify
 Version: 7.5.0
 Architecture: iphoneos-arm64e
 Maintainer: jaydenjcpy
@@ -533,45 +517,4 @@ Section: Tweaks
 Description: A tweak which brings back the old Twitter experience, with the features of X.
 Author: NeoFreeBird
 Name: NeoFreeBird
-
-Package: com.socuul.scinsta
-Version: 1.1.1-1+debug
-Architecture: iphoneos-arm64
-Maintainer: SoCuul
-Installed-Size: 664
-Depends: mobilesubstrate
-Filename: ./debs/com.socuul.scinsta_1.1.1_rootless.deb
-Size: 137996
-MD5sum: a4b99a075fe77b1845fede65ce0368d7
-SHA1: b8a1d957a89d36dbcfc678fe0cd3ffc9d10a248e
-SHA256: 5282720e8ce2ef8edabd455c13bd1b900b6c3b1322af8f49ef67979a1f735279
-Section: Tweaks
-Homepage: https://github.com/SoCuul/SCInsta
-Description: A feature-rich tweak for Instagram on iOS!
-Author: SoCuul
-Name: SCInsta
-
-Package: org.thebigboss.whatsapprevael
-Version: 10.23
-Architecture: iphoneos-arm64e
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 4113
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: org.thebigboss.whatsapprevaelrootless
-Filename: ./debs/org.thebigboss.whatsapprevael_10.23_iphoneos-arm64e.deb
-Size: 2106824
-MD5sum: e3fe865e8bacdf3fab6b8820ccbdf8d7
-SHA1: 413e045f574b0b377175ae30e3e95e1ad1e49829
-SHA256: f060078333b2c49ae905ae104af612a70d5c84387b8ea856991a6bdea60ebed8
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=whatsapprevaelDp
-Description: Many features of the WhatsApp application
-Tag: purpose::extension
-Author: Ahmad Mokadam <ahmadmokaddam@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=whatsapprevaelDp
-Dev: ahmadmokaddam
-Icon: file:///Library/Application%20Support/WARevael.bundle/icon@2x.png
-Name: Whatsapp Revael
-Sponsor: thebigboss.org <http://thebigboss.org>
 
