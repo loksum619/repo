@@ -1,5 +1,22 @@
 Package: com.82flex.unseen
 Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: 82flex
+Installed-Size: 492
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.82flex.unseen_0.0.5_iphoneos-arm64e.deb
+Size: 63484
+MD5sum: 3acabb2c447cfda2b439c49c524e90fc
+SHA1: 4c8fa0760641eeceb3dfbfdcc48f04166b9119c2
+SHA256: b5685819ab2746f3c82ee4b65db5c8f4e244309d7db8cbd5a7b5007ccf45de0c
+Section: Tweaks
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Author: 82flex
+Name: Unseen
+
+Package: com.82flex.unseen
+Version: 0.0.5
 Architecture: iphoneos-arm64
 Maintainer: 82flex
 Installed-Size: 492
@@ -25,23 +42,6 @@ Size: 49816
 MD5sum: 3e726f31ca67f0571b341612e7ae9137
 SHA1: 7dc48057c5a0b445727a56f5f77aa86f13698f4c
 SHA256: 6c4aa0ca5a6f44a5ccc1c41d303f604edee80e1bf860abd8a06e95049a10c57d
-Section: Tweaks
-Description: Neutralizes CALayer disableUpdateMask in the render server
-Author: 82flex
-Name: Unseen
-
-Package: com.82flex.unseen
-Version: 0.0.5
-Architecture: iphoneos-arm64e
-Maintainer: 82flex
-Installed-Size: 492
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), preferenceloader
-Filename: ./debs/com.82flex.unseen_0.0.5_iphoneos-arm64e.deb
-Size: 63484
-MD5sum: 3acabb2c447cfda2b439c49c524e90fc
-SHA1: 4c8fa0760641eeceb3dfbfdcc48f04166b9119c2
-SHA256: b5685819ab2746f3c82ee4b65db5c8f4e244309d7db8cbd5a7b5007ccf45de0c
 Section: Tweaks
 Description: Neutralizes CALayer disableUpdateMask in the render server
 Author: 82flex
@@ -143,24 +143,6 @@ Sileodepiction: https://repo.blatants.fyi/depictions/Lingvist.json
 
 Package: com.dvntm.ytlite
 Version: 6.0
-Architecture: iphoneos-arm
-Maintainer: dvntm
-Installed-Size: 40592
-Depends: mobilesubstrate
-Filename: ./debs/com.dvntm.ytlite_6.0_iphoneos-arm_patched_SpyG.deb
-Size: 14077844
-MD5sum: 91e0b207d91ffef9a3799c592e14caf8
-SHA1: 8cba979f7fb57c4075afd33b04d5dc2bfe1ecefd
-SHA256: 216cf4007e03b057c645f7631ffcb8c53d00c51ebe50a829150d660a6a1c0ad3
-Section: Tweaks
-Description: Lightweight YouTube Enhancer
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
-Name: YTLite
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
-
-Package: com.dvntm.ytlite
-Version: 6.0
 Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 40592
@@ -170,6 +152,24 @@ Size: 14070656
 MD5sum: f2733e00e00e43efce361daf4a508d60
 SHA1: efdf6b975d80c1fab81fff097f6ab19d0e2fd3cb
 SHA256: 1ee991e5ccdee10fcc99ade0ce789ec172cb21ea9d935e831b5bbb5c720ce1e4
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 6.0
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 40592
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_6.0_iphoneos-arm_patched_SpyG.deb
+Size: 14077844
+MD5sum: 91e0b207d91ffef9a3799c592e14caf8
+SHA1: 8cba979f7fb57c4075afd33b04d5dc2bfe1ecefd
+SHA256: 216cf4007e03b057c645f7631ffcb8c53d00c51ebe50a829150d660a6a1c0ad3
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -197,22 +197,6 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resource
 
 Package: com.eevee.spotify
 Version: 7.5.0
-Architecture: iphoneos-arm64
-Maintainer: jaydenjcpy
-Installed-Size: 26516
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Filename: ./debs/com.eevee.spotify_7.5.0_iphoneos-arm64.deb
-Size: 2553740
-MD5sum: 1c7e8828f880b47e4c3511ee16095705
-SHA1: cd15e7ae7fe4f276180060626312fb99fd79c25d
-SHA256: 73ab975d11cae0b76690add2c80cef3f700d741853d4c83698164f8c828a26b2
-Section: Tweaks
-Description: A tweak to get Spotify Premium for free, just like Spotilife
-Author: Eevee
-Name: EeveeSpotify
-
-Package: com.eevee.spotify
-Version: 7.5.0
 Architecture: iphoneos-arm64e
 Maintainer: jaydenjcpy
 Installed-Size: 26584
@@ -222,6 +206,22 @@ Size: 2627878
 MD5sum: 274d55f237c2890019e93cbaa292f41a
 SHA1: b269e92b903a0c3e57d4ba2bfa99d527e40a781d
 SHA256: 359b0e9616b17807eebd4919481d90c8420f90ca9a23c64b75631994162990a7
+Section: Tweaks
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Author: Eevee
+Name: EeveeSpotify
+
+Package: com.eevee.spotify
+Version: 7.5.0
+Architecture: iphoneos-arm64
+Maintainer: jaydenjcpy
+Installed-Size: 26516
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/com.eevee.spotify_7.5.0_iphoneos-arm64.deb
+Size: 2553740
+MD5sum: 1c7e8828f880b47e4c3511ee16095705
+SHA1: cd15e7ae7fe4f276180060626312fb99fd79c25d
+SHA256: 73ab975d11cae0b76690add2c80cef3f700d741853d4c83698164f8c828a26b2
 Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
@@ -360,21 +360,6 @@ Icon: https://raw.githubusercontent.com/ichitaso/OTADisabler-App/main/OTADisable
 Name: OTADisabler
 Sileodepiction: https://cydia.ichitaso.com/depiction/otadisabler.json
 
-Package: com.loksum619.swapmaster
-Version: 0.1.1-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: loksum619
-Installed-Size: 80
-Filename: ./debs/SwapMaster.deb
-Size: 4248
-MD5sum: 3af743408d9af08de239d54da4c8175e
-SHA1: 5167018fa671df01b5636963f958a539e5f0cb24
-SHA256: 018a47a499e617286cf4413f7264f582fa00b279c26eb850e707b2e61e15ceb2
-Section: Utilities
-Description: Read-only iOS virtual memory and swap status inspector.
-Author: loksum619
-Name: SwapMaster
-
 Package: com.netskao.filzacrack
 Version: 1.1-9
 Architecture: iphoneos-arm64
@@ -416,23 +401,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.nfb.tweak
 Version: 7.3.1-1+debug
-Architecture: iphoneos-arm
-Maintainer: NeoFreeBird
-Installed-Size: 14128
-Depends: mobilesubstrate
-Conflicts: com.den.twigalaxy, xyz.cypwn.twigalaxy, xyz.cypwn.bhtwitter, com.netskao.twitternoads, xyz.cypwn.bringbacktwitter
-Filename: ./debs/com.nfb.tweak_7.3.1-1+debug_iphoneos-arm.deb
-Size: 4852568
-MD5sum: 9d44acdbf9c826225d5c41e56d4c99dd
-SHA1: 12df113843cb203b711224a364be8efa8afdc530
-SHA256: 30dd3bf4f0902d7ce90abbf6a382bae766a4c89080a639d0dfd06b1a10e469ac
-Section: Tweaks
-Description: A tweak which brings back the old Twitter experience, with the features of X.
-Author: NeoFreeBird
-Name: NeoFreeBird
-
-Package: com.nfb.tweak
-Version: 7.3.1-1+debug
 Architecture: iphoneos-arm64
 Maintainer: NeoFreeBird
 Installed-Size: 14128
@@ -443,6 +411,23 @@ Size: 4852646
 MD5sum: 9a340d91a6ff1e3faf97f02e3a5f5737
 SHA1: d8abadd5271d56b6f09905bc2e89f88ac3916270
 SHA256: 853a887fd6e230b700cede591d5a43238a9336b986a17a830b34c6146b0fb3e0
+Section: Tweaks
+Description: A tweak which brings back the old Twitter experience, with the features of X.
+Author: NeoFreeBird
+Name: NeoFreeBird
+
+Package: com.nfb.tweak
+Version: 7.3.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: NeoFreeBird
+Installed-Size: 14128
+Depends: mobilesubstrate
+Conflicts: com.den.twigalaxy, xyz.cypwn.twigalaxy, xyz.cypwn.bhtwitter, com.netskao.twitternoads, xyz.cypwn.bringbacktwitter
+Filename: ./debs/com.nfb.tweak_7.3.1-1+debug_iphoneos-arm.deb
+Size: 4852568
+MD5sum: 9d44acdbf9c826225d5c41e56d4c99dd
+SHA1: 12df113843cb203b711224a364be8efa8afdc530
+SHA256: 30dd3bf4f0902d7ce90abbf6a382bae766a4c89080a639d0dfd06b1a10e469ac
 Section: Tweaks
 Description: A tweak which brings back the old Twitter experience, with the features of X.
 Author: NeoFreeBird
