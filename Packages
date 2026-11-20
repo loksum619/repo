@@ -366,10 +366,10 @@ Architecture: iphoneos-arm64e
 Maintainer: loksum619
 Installed-Size: 80
 Filename: ./debs/SwapMaster.deb
-Size: 3772
-MD5sum: 9b65dc5c10cdd47c0a4d6534fdb47305
-SHA1: 21916eae4ff43b46a116779705e26bf0b665c822
-SHA256: 5ed5273ecd6660dfbd8e96a930bc8a4b2fce3dbb65c18cf0df091b37b9c181ae
+Size: 4248
+MD5sum: 3af743408d9af08de239d54da4c8175e
+SHA1: 5167018fa671df01b5636963f958a539e5f0cb24
+SHA256: 018a47a499e617286cf4413f7264f582fa00b279c26eb850e707b2e61e15ceb2
 Section: Utilities
 Description: Read-only iOS virtual memory and swap status inspector.
 Author: loksum619
