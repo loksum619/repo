@@ -1,15 +1,14 @@
 Package: com.82flex.unseen
 Version: 0.0.5
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: 82flex
 Installed-Size: 492
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), preferenceloader
-Filename: ./debs/com.82flex.unseen_0.0.5_iphoneos-arm64e.deb
-Size: 63484
-MD5sum: 3acabb2c447cfda2b439c49c524e90fc
-SHA1: 4c8fa0760641eeceb3dfbfdcc48f04166b9119c2
-SHA256: b5685819ab2746f3c82ee4b65db5c8f4e244309d7db8cbd5a7b5007ccf45de0c
+Filename: ./debs/com.82flex.unseen_0.0.5_iphoneos-arm64.deb
+Size: 49876
+MD5sum: 2905eaa7b25d9dbad0fd7b4b6e301405
+SHA1: ded053762c6d76ce461ca87f448620faa8c65587
+SHA256: 74f8a1df69bf25ef3a733d4b783ceeb657b61aed9872790f5e2af72f17139ebb
 Section: Tweaks
 Description: Neutralizes CALayer disableUpdateMask in the render server
 Author: 82flex
@@ -33,15 +32,16 @@ Name: Unseen
 
 Package: com.82flex.unseen
 Version: 0.0.5
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: 82flex
 Installed-Size: 492
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), preferenceloader
-Filename: ./debs/com.82flex.unseen_0.0.5_iphoneos-arm64.deb
-Size: 49876
-MD5sum: 2905eaa7b25d9dbad0fd7b4b6e301405
-SHA1: ded053762c6d76ce461ca87f448620faa8c65587
-SHA256: 74f8a1df69bf25ef3a733d4b783ceeb657b61aed9872790f5e2af72f17139ebb
+Filename: ./debs/com.82flex.unseen_0.0.5_iphoneos-arm64e.deb
+Size: 63484
+MD5sum: 3acabb2c447cfda2b439c49c524e90fc
+SHA1: 4c8fa0760641eeceb3dfbfdcc48f04166b9119c2
+SHA256: b5685819ab2746f3c82ee4b65db5c8f4e244309d7db8cbd5a7b5007ccf45de0c
 Section: Tweaks
 Description: Neutralizes CALayer disableUpdateMask in the render server
 Author: 82flex
@@ -161,24 +161,6 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resource
 
 Package: com.dvntm.ytlite
 Version: 6.0
-Architecture: iphoneos-arm64e
-Maintainer: dvntm
-Installed-Size: 40592
-Depends: mobilesubstrate
-Filename: ./debs/com.dvntm.ytlite_6.0_iphoneos-arm64e_patched_SpyG.deb
-Size: 14075516
-MD5sum: 69ae1e941bb31a10dcba233914d86296
-SHA1: 8660b6af32b9399ae5dcd5fa15146fa04bb6dcd3
-SHA256: f6af774ef327389b0f93005350402c9d922aeb5e259f4909627bc1cbd4ee464a
-Section: Tweaks
-Description: Lightweight YouTube Enhancer
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
-Name: YTLite
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
-
-Package: com.dvntm.ytlite
-Version: 6.0
 Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 40592
@@ -195,21 +177,23 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resourc
 Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
-Package: com.eevee.spotify
-Version: 7.5.0
+Package: com.dvntm.ytlite
+Version: 6.0
 Architecture: iphoneos-arm64e
-Maintainer: jaydenjcpy
-Installed-Size: 26584
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Filename: ./debs/com.eevee.spotify_7.5.0_iphoneos-arm64e-roothide.deb
-Size: 2627878
-MD5sum: 274d55f237c2890019e93cbaa292f41a
-SHA1: b269e92b903a0c3e57d4ba2bfa99d527e40a781d
-SHA256: 359b0e9616b17807eebd4919481d90c8420f90ca9a23c64b75631994162990a7
+Maintainer: dvntm
+Installed-Size: 40592
+Depends: mobilesubstrate
+Filename: ./debs/com.dvntm.ytlite_6.0_iphoneos-arm64e_patched_SpyG.deb
+Size: 14075516
+MD5sum: 69ae1e941bb31a10dcba233914d86296
+SHA1: 8660b6af32b9399ae5dcd5fa15146fa04bb6dcd3
+SHA256: f6af774ef327389b0f93005350402c9d922aeb5e259f4909627bc1cbd4ee464a
 Section: Tweaks
-Description: A tweak to get Spotify Premium for free, just like Spotilife
-Author: Eevee
-Name: EeveeSpotify
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.eevee.spotify
 Version: 7.5.0
@@ -222,6 +206,22 @@ Size: 2553740
 MD5sum: 1c7e8828f880b47e4c3511ee16095705
 SHA1: cd15e7ae7fe4f276180060626312fb99fd79c25d
 SHA256: 73ab975d11cae0b76690add2c80cef3f700d741853d4c83698164f8c828a26b2
+Section: Tweaks
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Author: Eevee
+Name: EeveeSpotify
+
+Package: com.eevee.spotify
+Version: 7.5.0
+Architecture: iphoneos-arm64e
+Maintainer: jaydenjcpy
+Installed-Size: 26584
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/com.eevee.spotify_7.5.0_iphoneos-arm64e-roothide.deb
+Size: 2627878
+MD5sum: 274d55f237c2890019e93cbaa292f41a
+SHA1: b269e92b903a0c3e57d4ba2bfa99d527e40a781d
+SHA256: 359b0e9616b17807eebd4919481d90c8420f90ca9a23c64b75631994162990a7
 Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
@@ -249,6 +249,24 @@ Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.regram
 
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
+Architecture: iphoneos-arm64
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64.deb
+Size: 6566710
+MD5sum: 25acbe5dd2e0d161e88975b369c44725
+SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
+SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Version: 2.4.1
 Architecture: iphoneos-arm64e
 Maintainer: dayanch96 & ginsu
 Installed-Size: 17916
@@ -265,23 +283,24 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/mai
 Name: YTMusicUltimate
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
-Package: com.ginsu.ytmusicultimate
-Version: 2.4.1
-Architecture: iphoneos-arm64
-Maintainer: dayanch96 & ginsu
-Installed-Size: 17916
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64.deb
-Size: 6566710
-MD5sum: 25acbe5dd2e0d161e88975b369c44725
-SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
-SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
+Package: com.huami.dyyy
+Version: 2.2-8
+Architecture: iphoneos-arm
+Maintainer: huami
+Installed-Size: 2036
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/DYYY_2.2-8_01032350-arm.deb
+Size: 438372
+MD5sum: 8155f9e5f03201561b9dad70ab0e02ba
+SHA1: 1056f239c5c9488609ef395a4a6f319ebe101f57
+SHA256: 24f65130ee1d344599a294df7a77eac536b40d4a939bc7633181926a898a2181
 Section: Tweaks
-Description: YouTube Music Premium
-Author: dayanch96 & ginsu
-Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
-Name: YTMusicUltimate
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY
 
 Package: com.huami.dyyy
 Version: 2.2-8
@@ -321,25 +340,6 @@ Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY
 
-Package: com.huami.dyyy
-Version: 2.2-8
-Architecture: iphoneos-arm
-Maintainer: huami
-Installed-Size: 2036
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/DYYY_2.2-8_01032350-arm.deb
-Size: 438372
-MD5sum: 8155f9e5f03201561b9dad70ab0e02ba
-SHA1: 1056f239c5c9488609ef395a4a6f319ebe101f57
-SHA256: 24f65130ee1d344599a294df7a77eac536b40d4a939bc7633181926a898a2181
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY
-
 Package: com.ichitaso.otadisabler
 Version: 0.6
 Architecture: iphoneos-arm
@@ -359,6 +359,21 @@ Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
 Icon: https://raw.githubusercontent.com/ichitaso/OTADisabler-App/main/OTADisabler/Icon-60%403x.png
 Name: OTADisabler
 Sileodepiction: https://cydia.ichitaso.com/depiction/otadisabler.json
+
+Package: com.loksum619.swapmaster
+Version: 0.1.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: loksum619
+Installed-Size: 80
+Filename: ./debs/SwapMaster.deb
+Size: 2888
+MD5sum: f48aa0b83e85af0d125cb532dfc018b4
+SHA1: 22c51489c389a4ba9991986fc7c0936ecb8cbff0
+SHA256: 15781836033fb4b6ead2eca213f87a9f334cc071f77cce9a332235ac45438c7d
+Section: Utilities
+Description: Read-only iOS virtual memory and swap status inspector.
+Author: loksum619
+Name: SwapMaster
 
 Package: com.netskao.filzacrack
 Version: 1.1-9
