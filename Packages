@@ -283,6 +283,54 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/mai
 Name: YTMusicUltimate
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
+Package: com.h4x.threadspulse
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: h4x_0x30vm
+Installed-Size: 2124
+Depends: mobilesubstrate
+Filename: ./debs/ThreadsPulse_roothide_1.31.1.deb
+Size: 703630
+MD5sum: 1f685732ab39fad16c7d702e54d72cff
+SHA1: 4f8b5bce25e00290db479f5a86ea96a6cbf41a83
+SHA256: 4dc1c93d10b06af9cac865d6c6f6add8661d998e62d047ff0b7429f3e51e50a3
+Section: Tweaks
+Description: Threads 增強插件：影片下載、移除網址追蹤碼、去廣告、App 設定選單
+Author: h4x_0x30vm
+Name: ThreadsPulse
+
+Package: com.h4x.threadspulse
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: h4x_0x30vm
+Installed-Size: 2124
+Depends: mobilesubstrate
+Filename: ./debs/ThreadsPulse_rootless_1.31.1.deb
+Size: 703536
+MD5sum: bf2881e321708d3e203d659a09960309
+SHA1: 10b945f10adc9ea22ec4d91954351e4c7894a6f3
+SHA256: 0cea49eaa9da67448c040a5e808a24b36dedc0eb20f5bb2d0ebb87c073120f1c
+Section: Tweaks
+Description: Threads 增強插件：影片下載、移除網址追蹤碼、去廣告、App 設定選單
+Author: h4x_0x30vm
+Name: ThreadsPulse
+
+Package: com.h4x.threadspulse
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: h4x_0x30vm
+Installed-Size: 2124
+Depends: mobilesubstrate
+Filename: ./debs/ThreadsPulse_rootful_1.31.1.deb
+Size: 703352
+MD5sum: b4df4fd5f1c9749b787f17b3846bbf24
+SHA1: 8cc8da55f241621101fa86c3aa4fcf759dec1d76
+SHA256: 9b3c9bd6e51591714653552f6253df3dc71c085b9c213a6b9fee5a70c72c1b5f
+Section: Tweaks
+Description: Threads 增強插件：影片下載、移除網址追蹤碼、去廣告、App 設定選單
+Author: h4x_0x30vm
+Name: ThreadsPulse
+
 Package: com.huami.dyyy
 Version: 2.2-8
 Architecture: iphoneos-arm
